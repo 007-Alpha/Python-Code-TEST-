@@ -1,11 +1,11 @@
 import random
-numbers = rtandom.randint(1,100)
+numbers = random.randint(1,100)
 attempts=0
 while True:
   Guess=input("Guess a number between 1 and 100: ")
   if not guess.sidigit():
     print("Print enter a valid number.")
-continue
+  continue
 guess=int(guess)
 attempts +=1
 
